@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #29058f;
+    min-height: 100vh;
+    color: #abcdef;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #111111f2;
+    padding: 20px;
+    z-index: 100;
+}
+.name{
+    flex: 0.6;
+    font-size: 22px;
+}
+.link{
+    flex: 0.4;
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+a:hover{
+    background-color: #333;
+}
+@media (max-width: 1000px) {
+    .namw{
+        flex: 0.4;
+    }
+    .links{
+        flex: 0.6;
+    }
+}
+.main-section{
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0px;
+    min-height: 85vh;
+}
+.project-img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+#about{
+    background-color: #2c0599;
+}
+#project{
+    background-color: #111138;
+}
+h1{
+    font-size: 80px;
+    margin-bottom: 70px;
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+.aboutme{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.project{
+    background-color: #234567;
+    border-radius: 3px;
+    transition: transform 0.35s ease-in-out;
+}
+.project:hover{
+    transform: scale(1.04);
+    transition: transform 0.35s ease-in-out;
+}
+.project-title{
+    font-size: 30px;
+    padding: 20px;
+}
+.main-contact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 0px;
+}
+.contact-type{
+    margin: 20px 35px;
+}
+h3{
+    font-size: 35px;
+}
